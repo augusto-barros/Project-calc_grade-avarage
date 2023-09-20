@@ -57,7 +57,7 @@ function atualizaTabela() {
 function atualizaMediaFinal() {
     const mediaFinal = calculaMediaFinal();
     
-    document.getElementById('mediaFinal').innerHTML = mediaFinal;
+    document.getElementById('mediaFinal').innerHTML = mediaFinal.toFixed(2);
 
     const resultadoElement = document.getElementById('mediaFinalResultado');
 
